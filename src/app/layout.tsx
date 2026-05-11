@@ -22,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={inter.variable} suppressHydrationError>
+    <html lang="en" className={inter.variable}>
       <body className="min-h-screen bg-slate-50 font-sans text-slate-900 antialiased">
         <ConfigProvider>
           <SettingsProvider>
